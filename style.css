@@ -1,0 +1,39 @@
+div#content {
+    width: 960px;
+    margin: 50px auto;
+    background: #ccc;
+    padding: 20px 60px;
+    text-align: justify;
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.show-more h2 {
+    position: relative;
+}
+.show-more h2:after {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 4px;
+    background: darkolivegreen;
+    top: 100%;
+    left: 0;
+    margin-bottom: 20px;
+}
+.show-more h2 {
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+p#para button {
+    
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    color: blue;
+    font-weight: bold;
+    margin-left: 6px;
+}
